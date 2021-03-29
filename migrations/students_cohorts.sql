@@ -36,5 +36,5 @@ CREATE TABLE students (
   github VARCHAR(255),
   start_date DATE,
   end_date DATE,
-  cohorts_id INTEGER REFERENCES cohorts(id) ON DELETE CASCADE
+  cohort_id INTEGER REFERENCES cohorts(id) ON DELETE CASCADE
 )
