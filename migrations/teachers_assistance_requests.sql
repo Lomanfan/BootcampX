@@ -21,3 +21,6 @@ CREATE TABLE assistance_requests (
   student_feedback TEXT,
   teacher_feedback TEXT
 );
+
+
+
